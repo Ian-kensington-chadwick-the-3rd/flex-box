@@ -1,31 +1,61 @@
 * {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgba(128, 93, 194, 0.877);
 }
+
 
 
 
 
 header {
     
-    background: linear-gradient(rgb(228, 116, 101), rgb(44, 7, 39));
-    color:purple;
+    
+    color:rgb(0, 0, 0);
+    font-size: 35px;
+    margin: 10px;
     display:flex;
     justify-content:center
     
 }
 
-.flexbox-1   {
+.flexbox {
+    width: 450px;
+    height: 150px;
+    border: 3px dashed white;
+    padding: 30px;
+    margin: 10px;
+}
+
+.container {
+display: flex;
+flex-wrap: wrap;
+justify-content: start;
+flex-direction:row;
+gap: 50px;
+}
+
+.container2 {
+display:flex;
+flex-wrap: wrap;   
+justify-content: stretch;
+flex-direction: row;
+flex-wrap: wrap;   
+}
+
+
+
+
+/* .flexbox   {
     display:flex;
-    justify-content: flex-end;
-    
-    flex-direction: column;
-    order: 1;
+    justify-content:space-around;
+    flex-direction: row;
+    flex-flow: row wrap;
     width: 150px;
     border: 3px dotted green;
     padding: 50px;
     margin: 20px;
-}
-
+} */
+/* 
 .flexbox-2 {
     display:flex;
     order: 2;
@@ -50,9 +80,9 @@ header {
     justify-content: center;
     height: 150;
     width: 150px;
-    border: 3px dotted green;
+    border: 8px dotted green;
     padding: 50px;
-    margin: 40px;
+    margin: 20px;
 }
 .flexbox-5 {
     display:flex;
@@ -71,8 +101,8 @@ header {
     border: 3px dotted green;
     padding: 50px;
     margin: 20px;
-}
-.footer {
+}*/
+/* .footer {
  display: flex; 
  justify-content:center;  
  font-family: 'Times New Roman', Times, serif;
@@ -82,8 +112,10 @@ header {
 .center {
     display: flex;
     justify-content: center;
-}
+}  */
 
-@media screen {
-    
-}media 
+/* @media screen and (max-width: 992) {
+    body{
+        background-color: linear-gradient(aqua)(purple);
+    }
+} */
